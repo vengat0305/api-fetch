@@ -1,0 +1,57 @@
+.cardBox {
+  width: 22%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: 0px 5px 5px rgb(182, 182, 182);
+  padding: 1rem;
+  background-color: rgb(234, 239, 255);
+}
+.cardBox img {
+  mix-blend-mode: multiply;
+}
+.cardBox h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.cardBox .price {
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid black;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 254, 238);
+}
+.cardBox button {
+  font-size: 12px;
+  font-weight: 600;
+  border: 2px solid black;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(185, 202, 255);
+}
+.details {
+  font-size: 12px;
+  font-weight: 600;
+  border: 2px solid black;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(185, 202, 255);
+}
+.details .category,
+.rate,
+.count {
+  width: 10rem;
+  border: 2px solid black;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(185, 202, 255);
+  margin-top: 5px;
+}
